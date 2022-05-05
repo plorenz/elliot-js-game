@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Death Dodger</title>
+        <script src="avatar.js"></script>
+        <script src="block.js"></script>
+        <script src="game.js"></script>
+        <style>
+            canvas {border: 1px black solid}
+        </style>
+    </head>
+    <body onload="initGame()">
+        <canvas id="gameCanvas" width="800" height="800">
+        </canvas>
+        <div>
+            <button onclick="game.reset()">New Game</button>
+        </div>
+    </body>
+</html>
